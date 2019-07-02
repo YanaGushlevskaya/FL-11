@@ -43,6 +43,10 @@ body {
   text-decoration: none;
 }
 
+a:hover {
+  transition: all 1s ease-in-out;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 13px;
@@ -224,7 +228,7 @@ a:-webkit-any-link {
   }
 
   .nav__link:last-child {
-    padding-right: 45px;
+    margin-right: 45px;
   }
 
   .nav__link:hover {
