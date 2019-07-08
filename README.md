@@ -9,5 +9,5 @@
 [Homework4 - CSS layouts](https://yanagushlevskaya.github.io/FL-11/FL11_HW4/homework/index.html)  
 [Homework5 - Responsive](https://yanagushlevskaya.github.io/FL-11/FL11_HW5/homework/index.html)  
 [Homework6 - Intro to JS]()  
-- [Homework6.1 - Does the point divide the segment in half? ](https://yanagushlevskaya.github.io/FL-11/FL11_HW6/homework/js/task1.js)  
-- [Homework6.2 - Is it a triangle? ](https://yanagushlevskaya.github.io/FL-11/FL11_HW6/homework/js/task2.js)  
+- [Homework6.1 - Does the point divide the segment in half? ](https://yanagushlevskaya.github.io/FL-11/FL11_HW6/homework/task1.html)  
+- [Homework6.2 - Is it a triangle? ](https://yanagushlevskaya.github.io/FL-11/FL11_HW6/homework/task2.html)  
