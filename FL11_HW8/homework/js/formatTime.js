@@ -1,9 +1,9 @@
 let formatTime = time => {
-  let days = Math.floor(time / 60 / 24) + ' day(s) ';
-  let hours = Math.floor((time / 60) % 24) + ' hour(s) ';
-  let minutes = Math.floor(time % 60) + ' minute(s)';
+  const DAYS = Math.floor(time / 60 / 24) + ' day(s) ';
+  const HOURS = Math.floor((time / 60) % 24) + ' hour(s) ';
+  const MINUTES = Math.floor(time % 60) + ' minute(s)';
 
-  return `${days} ${hours} ${minutes}`;
+  return `${DAYS} ${HOURS} ${MINUTES}`;
 };
 
 formatTime(3601);

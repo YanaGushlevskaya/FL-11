@@ -1,5 +1,3 @@
-let isInteger = num => {
-  return parseInt(num) === num;
-};
+let isInteger = num => parseInt(num) === num;
 
 isInteger(5);
