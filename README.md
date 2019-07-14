@@ -11,7 +11,8 @@
 [Homework6 - Intro to JS]()  
 - [Homework6.1 - Does the point divide the segment in half? ](https://yanagushlevskaya.github.io/FL-11/FL11_HW6/homework/task1.html)  
 - [Homework6.2 - Is it a triangle? ](https://yanagushlevskaya.github.io/FL-11/FL11_HW6/homework/task2.html)  
-[Homework7 - Control flow]()  
+
+[Homework7 - Control flow]()   
 - [Homework7.1 - Check the email and change the password](https://yanagushlevskaya.github.io/FL-11/FL11_HW7/homework/src/task1.html)  
 - [Homework7.2 - Guessing game](https://yanagushlevskaya.github.io/FL-11/FL11_HW7/homework/src/task2.html)  
 
