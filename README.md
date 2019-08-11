@@ -27,7 +27,8 @@ Restrictions of Task9:
 - Using built–in array or object methods(besides push, hasOwnProperty and date methods).  
 - Using any external libraries.     
 
+[Homework10 - Scope & Context ](https://yanagushlevskaya.github.io/FL-11/FL11_HW10/homework/index.html)   
 [Homework11 - ToDoList](https://yanagushlevskaya.github.io/FL-11/FL11_HW11/homework/index.html)  
-
+[Homework13 - CSS Frameworks(Bootstrap)](https://yanagushlevskaya.github.io/FL-11/FL11_HW13/homework/index.html)
 
 
