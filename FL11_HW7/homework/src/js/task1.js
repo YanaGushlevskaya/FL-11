@@ -8,7 +8,7 @@ const MIN_PASSW_LENGTH = 5;
 let login = prompt('Please enter your login');
 
 login !== '' && login !== null && login.length < MIN_LOGIN_LENGTH
-  ? login = 'too short'
+  ? (login = 'too short')
   : login;
 
 switch (login) {
@@ -23,9 +23,9 @@ switch (login) {
   case ADMIN_LOGIN: {
     let password = prompt('Please enter your password');
 
-    login === USER_LOGIN && password === USER_PASSWORD ||
-    login === ADMIN_LOGIN && password === ADMIN_PASSWORD
-      ? password = true
+    (login === USER_LOGIN && password === USER_PASSWORD) ||
+    (login === ADMIN_LOGIN && password === ADMIN_PASSWORD)
+      ? (password = true)
       : password;
 
     switch (password) {
@@ -43,9 +43,9 @@ switch (login) {
         } else {
           let oldPassword = prompt('Please enter the old password');
 
-          login === USER_LOGIN && oldPassword === USER_PASSWORD ||
-          login === ADMIN_LOGIN && oldPassword === ADMIN_PASSWORD
-            ? oldPassword = true
+          (login === USER_LOGIN && oldPassword === USER_PASSWORD) ||
+          (login === ADMIN_LOGIN && oldPassword === ADMIN_PASSWORD)
+            ? (oldPassword = true)
             : oldPassword;
 
           switch (oldPassword) {
@@ -54,7 +54,6 @@ switch (login) {
               alert('Canceled');
               break;
             case true: {
-
               let newPassword = prompt('Please enter a new password');
               if (newPassword.length < MIN_PASSW_LENGTH) {
                 alert('It’s too short password. Sorry.');
