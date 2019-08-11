@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet/less" type="text/css" href="styles/styles.less" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <script src="js/less.min.js"></script>
+    <title>CSS frameworks</title>
+  </head>
+  <body>
+    <header class="header mb-4">
+      <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+        <div class="container mx-3 mx-sm-auto px-sm-3 d-flex justify-content-between align-items-center">
+          <a href="index.html" class="navbar-brand">
+            <img src="img/logo.png" alt="logo" class="navbar-brand__img" />
+          </a>
+          <button
+            class="navbar-toggler py-2 my-2"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon header__nav-icon" id="header__nav-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-nav" id="navbarContent">
+            <a href="#" class="nav-item nav-link active">Classes</a>
+            <a href="#" class="nav-item nav-link">About us</a>
+            <a href="#" class="nav-item nav-link">Contacts</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="product mb-5">
+        <div class="container">
+          <h1 class="product__heading primary-heading mb-3 pb-2">
+            Yoga Pilates
+          </h1>
+          <figure class="product__wrapper row">
+            <img src="img/yoga.jpg" alt="yoga" class="product__img img-fluid col-12 col-lg-6 mb-4" />
+            <figcaption class="product__description col-12 col-lg-6 mt-lg-4">
+              <h3 class="product__desription-title primary-heading">
+                Class description
+              </h3>
+              <p class="product__desription-text">
+                This workout uses a series of exercise routines designed to increase your core strength &amp; improve
+                your posture, energy, &amp; flexibility. Pilates work is powered by breath, flow, &amp; centering. By
+                focusing on the mind-body connection &amp; using more efficient form, this workout helps develop a
+                stronger, leaner, healthier body. Appropriate for all fitness levels.
+              </p>
+              <ul class="product__list">
+                <li class="product__list-item">One Personal Trainer</li>
+                <li class="product__list-item">Big gym space for training</li>
+                <li class="product__list-item">Free tools & props</li>
+                <li class="product__list-item">Free locker</li>
+                <li class="product__list-item">Free before / after shower</li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="catalog mb-5">
+        <div class="container">
+          <h3 class="catalog__heading primary-heading mb-4 pb-2">Related classes</h3>
+          <ul class="catalog__list list-unstyled row">
+            <li class="catalog__list-item col-6 col-md-3 mb-4 mb-md-0">
+              <figure class="catalog__img-wrapper">
+                <img src="img/cardio-kickbox.jpg" alt="cardio-kickbox" class="catalog__img img-fluid" />
+                <figcaption class="catalog__img-description">
+                  <a href="#" class="catalog__img-text stretched-link">Cardio kickboxing</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="catalog__list-item col-6 col-md-3">
+              <figure class="catalog__img-wrapper">
+                <img src="img/fitness.jpg" alt="fitness" class="catalog__img img-fluid" />
+                <figcaption class="catalog__img-description">
+                  <a href="#" class="catalog__img-text stretched-link">Fitness xpress</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="catalog__list-item col-6 col-md-3">
+              <figure class="catalog__img-wrapper">
+                <img src="img/zumba.jpg" alt="zumba" class="catalog__img img-fluid" />
+                <figcaption class="catalog__img-description">
+                  <a href="#" class="catalog__img-text stretched-link">Zumba</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="catalog__list-item col-6 col-md-3">
+              <figure class="catalog__img-wrapper">
+                <img src="img/bootcamp.jpg" alt="bootcamp" class="catalog__img img-fluid" />
+                <figcaption class="catalog__img-description">
+                  <a href="#" class="catalog__img-text stretched-link">Bootcamp</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+          <p class="footer__text px-3 py-2">&copy; Epam Front-end lab, 2019</p>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
