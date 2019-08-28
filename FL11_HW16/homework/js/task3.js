@@ -24,7 +24,7 @@ function Charmander() {
 }
 
 Charmander.prototype = Object.create(Charmeleon.prototype);
-Charmander.prototype.constructor = Charmander;
+/* Charmander.prototype.constructor = Charmander; */
 
 function Charmeleon() {
   Charmander.call(this);
