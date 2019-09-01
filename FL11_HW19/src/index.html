@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Webpack Boilerplate</title>
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+  </head>
+
+  <body>
+    <h1 class="main-heading">Let's play</h1>
+    <div class="description">
+      <span class="description-title">The rules:</span>
+      <ul class="description-list">
+        <li>Scissors beats a paper,</li>
+        <li>Paper beats rock,</li>
+        <li>Rock beats scissors.</li>
+        <li>
+          And we play up to <span class="description-score">three wins!</span>
+        </li>
+      </ul>
+    </div>
+    <div class="button-wrapper">
+      <button class="reset-button">Scissors</button>
+      <button class="reset-button">Paper</button>
+      <button class="reset-button">Rock</button>
+      <button class="reset-button reset">Reset</button>
+    </div>
+    <p class="game-result"></p>
+
+    <script
+      defer
+      src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"
+    ></script>
+  </body>
+</html>
