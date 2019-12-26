@@ -1,0 +1,19 @@
+.basket {
+  width: 25%;
+  position: absolute;
+  right: 0;
+
+  .btn {
+    width: 100%
+  }
+}
+
+.basket__list {
+  list-style: none;
+  padding: 0;
+}
+
+.basket__item {
+  display: flex;
+  justify-content: space-between;
+}

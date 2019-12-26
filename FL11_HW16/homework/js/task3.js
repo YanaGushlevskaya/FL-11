@@ -1,13 +1,7 @@
 function Pokemon() {
-  this.getType = function() {
-    return this.element;
-  };
-  this.getSpecie = function() {
-    return this.specie;
-  };
-  this.canFly = function() {
-    return this.flyAbility;
-  };
+  this.getType = () => this.element;
+  this.getSpecie = () => this.specie;
+  this.canFly = () => this.flyAbility;
   this.getPokemonType = function() {
     return this.constructor.name;
   };
@@ -32,7 +26,7 @@ function Charmeleon() {
 }
 
 Charmeleon.prototype = Object.create(Charizard.prototype);
-Charmeleon.prototype.constructor = Charmeleon;
+/* Charmeleon.prototype.constructor = Charmeleon; */
 
 function Charizard() {
   Charmeleon.call(this);
@@ -46,7 +40,6 @@ const charizard = new Charizard();
 /* console.log(charmander.getType());
 console.log(charmander.getType() === charmeleon.getType());
 console.log(charmeleon.getType() === charizard.getType());
-
 console.log(charmander.evolve().constructor === Charmeleon);
 console.log(charmeleon.evolve().constructor === Charizard);
 
@@ -71,9 +64,7 @@ Pichu.prototype = Object.create(Pikachu.prototype);
 Pichu.prototype.constructor = Pichu;
 
 function Pikachu() {
-  Pokemon.call(this);
-  this.type = 'lightning';
-  this.specie = 'Mouse Pokemon';
+  Pichu.call(this);
   this.evolve = function() {
     return new Raichu();
   };
@@ -83,24 +74,23 @@ Pikachu.prototype = Object.create(Raichu.prototype);
 Pikachu.prototype.constructor = Pikachu;
 
 function Raichu() {
-  Pokemon.call(this);
-  this.type = 'lightning';
+  Pikachu.call(this);
   this.specie = 'Mouse Pokemon';
   this.evolve = function() {
     return new Raichu();
   };
 }
 
-const pichu = new Pichu();
-/* console.log(pichu.getPokemonType()); */
+/* const pichu = new Pichu();
+console.log(pichu.getPokemonType());
 
 const pikachu = pichu.evolve();
-/* console.log(pikachu.getPokemonType()); */
-/* console.log(pikachu.constructor === Pikachu); */
+console.log(pikachu.getPokemonType());
+console.log(pikachu.constructor === Pikachu);
 
 const raichu = pikachu.evolve();
-/* console.log(raichu.getPokemonType()); */
-/* console.log(raichu.constructor === Raichu); */
+console.log(raichu.getPokemonType());
+console.log(raichu.constructor === Raichu);
 
 const raichu2 = raichu.evolve();
-/* console.log(raichu2 === raichu); */
+console.log(raichu2 === raichu); */

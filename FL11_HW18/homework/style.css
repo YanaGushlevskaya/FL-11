@@ -32,6 +32,12 @@
     border: 1px solid transparent;
     border-radius: 3px;
     padding: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.user-name:hover {
+  color:#bebdbd;
 }
 
 .user-item:not(:last-child) {
@@ -44,4 +50,25 @@
 
 .user-item .fas:hover {
     color: #bebdbd;
+}
+
+.user-item i {
+  padding-right: 10px;
+}
+
+.post-list {
+  padding: 50px;
+  list-style-type: decimal;
+}
+
+.post-title {
+  color: rgb(32, 32, 133);
+}
+
+.post-content::first-letter, .post-title::first-letter {
+  text-transform: capitalize;
+}
+
+.post-item:not(:last-child) {
+  margin-bottom: 20px;
 }
